@@ -1,0 +1,59 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+#containor{
+    position: relative;
+    height: 250px;
+    width: 90%;
+    border: 2px solid red;
+    background-color: aliceblue;
+    background-image:url("images.gif");
+    margin-left: 4%;
+    overflow: hidden;
+}
+#bird{
+    position: absolute;
+
+    background:url("bird.gif");
+    height: 30px;
+    width: 50px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    top: 35%;
+    left: 25%;
+}
+.pole{
+    position: absolute;
+    height: 85px;
+    width: 30px;
+    background-color: greenyellow;
+    right: 50px;
+}
+#pol_1{
+    top: 0;
+}
+
+#pol_2{
+
+    bottom: 0;
+}
+#score_div{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#restart_btn{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: fuchsia;
+    color: white;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
